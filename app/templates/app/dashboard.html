@@ -1,0 +1,31 @@
+{% extends 'app/main.html' %}
+
+{% block content %}
+<table class="table">
+    <tr>
+        <th>Personal details</th>
+        <th>Bank details</th>
+        <th>latest news</th>
+    </tr>
+{% for i in content %}
+
+    <tr>
+        <td>Name : {{i.name}}</td>
+        <td>A/c No : {{i.Ac_No}}</td>
+    </tr>
+     <tr>
+        <td>Address : {{i.address}}</td>
+        <td>Bank : {{i.bank}}</td>
+    </tr>
+     <tr>
+        <td>Level No : {{i.level_no}}</td>
+        <td>IFSC : {{i.IFSC}}</td>
+    </tr>
+    <tr>
+        <td>Target : {{i.target}}</td>
+        <td>Pan no : {{i.Pan_no}}</td>
+    </tr>
+{% endfor %}
+</table>
+
+{% endblock %}
