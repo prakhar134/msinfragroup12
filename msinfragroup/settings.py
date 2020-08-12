@@ -25,7 +25,7 @@ SECRET_KEY = 'nlh3z(q93#)+qc+k$abg=g!d3og#bcyexqxk%qx@y=2(p639##'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['msinfragroup.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['fenox.herokuapp.com','msinfragroup.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
